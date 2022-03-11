@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversor de divisas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
+    <h1>Conversor de USD a COP</h1>
+    <!--La idea de este proyecto es practicar mediante la implementacion de un conversor 
+        de dolares a pesos colombianos, usando html, css y js-->
+    <div>
+        <div class="dolares">
+            <p class="regular abrev">USD</p>
+            <input type="number" id="entrada" >
+            <img src="usflag.png" alt="">
+        </div>
+        <button onclick="getVal()">Convertir</button>
+        <div class="pesos">
+            <p class="abrev">COP</p>
+            <p id="resultado"></p>
+            <img src="colombiaflag.png" alt="">
+        </div>
+    </div>
+
     
+
+
+    
+
 </body>
 </html>

@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+img{
+    height: 50px;
+    width: 80px;
+}
+
+
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+#resultado,
+input{
+    height: 20px;
+    width: 100px;
+    text-align: right;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
