@@ -11,6 +11,7 @@ img{
 
 div{
     display:flex;
+    flex-wrap:wrap;
     align-items: center;
     justify-content:space-around;
     
@@ -19,7 +20,7 @@ div{
 #resultado,
 input{
     height: 20px;
-    width: 100px;
+    width: 80px;
     text-align: right;
     border: 1px solid black;
     margin-right: 10px;
